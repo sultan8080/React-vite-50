@@ -1,0 +1,68 @@
+JSX & Rendering Basics (4 exercices)
+1. Rendre un titre simple avec JSX : `<h1>Hello, World!</h1>`
+2. Créer un paragraphe avec un style en ligne (inline style) via JSX.
+3. Afficher une liste de 3 éléments (comme tes fruits préférés).
+4. Créer un composant React simple qui retourne une `div` avec ton prénom.
+
+Props (9 exercices)
+5. Créer un composant Greeting qui accepte une prop name et l'affiche.
+6. Passer plusieurs props (nom, âge) à un composant UserCard et les afficher.
+7. Créer un composant Button avec une prop label personnalisée.
+8. Créer une ProductCard avec les props title, price, inStock et les afficher de manière conditionnelle.
+9. Créer un composant ProfilePicture qui prend une URL d’image en prop et l’affiche dans une balise <img>.
+
+State (useState & useEffect) (10 exercices)
+10. Créer un compteur avec les boutons + et - utilisant useState.
+11. Champ de texte affichant sa valeur en temps réel.
+12. Afficher ou cacher un paragraphe via un bouton toggle.
+13. Changer la couleur du bouton lorsqu'on clique dessus.
+14. Créer une checkbox et afficher si elle est cochée ou non.
+15. Compter le nombre de caractères saisis dans un champ texte.
+16. Créer un composant ThemeToggle qui change un thème sombre/clair avec useState.
+17. Utiliser useEffect pour afficher "Composant monté" dans la console lors du chargement.
+18. Utiliser useEffect pour détecter les changements d’un champ input.
+19. Créer un minuteur qui s'incrémente toutes les secondes à l'aide de setInterval + useEffect.
+
+Events (5 exercices)
+20. Créer un bouton qui déclenche une alerte lors du clic.
+21. Créer un formulaire avec champ input, en empêchant le comportement par défaut.
+22. Détecter un survol de souris sur une div.
+23. Créer une zone cliquable qui change de couleur à chaque clic.
+24. Gérer l’événement onChange d’un champ select pour afficher l’option sélectionnée.
+
+Conditional Rendering (5 exercices)
+25. Afficher un bouton login/logout selon isLoggedIn.
+26. Afficher un message uniquement si un champ input est rempli.
+27. Changer la couleur de fond en fonction d’un état.
+28. Afficher "Chargement..." tant que les données ne sont pas encore récupérées.
+29. Créer une alerte d’erreur si une condition est remplie (ex: champ vide à la soumission).
+
+Lists and Keys (5 exercices)
+30. Afficher une liste d’utilisateurs via .map().
+31. Ajouter un bouton pour supprimer un élément de la liste.
+32. Créer une todo-list dynamique avec ajout et suppression.
+33. Créer une liste de tâches avec une case à cocher pour marquer comme "terminée".
+34. Réordonner une liste par ordre alphabétique au clic d’un bouton.
+
+useEffect Hook (3 exercices)
+35. Utiliser useEffect pour afficher un message quand un état change.
+36. Faire une requête API (ex: JSONPlaceholder) et afficher les données.
+37. Nettoyer un intervalle ou event listener avec useEffect.
+
+Component Composition (4 exercices)
+38. Créer un composant parent avec plusieurs enfants utilisant des props.
+39. Nidifier des composants (App > Dashboard > Card) avec des données.
+40. Lever l'état : gérer un état dans le parent et le passer en prop au composant enfant.
+41. Créer un composant Layout qui enveloppe des enfants passés via props.children.
+
+Forms (4 exercices)
+42. Créer un formulaire avec des champs : nom, email, message.
+43. Ajouter une validation de base (champs requis, min. longueur).
+44. Créer un formulaire avec des boutons radio pour choisir une option.
+45. Afficher un message de confirmation une fois le formulaire soumis.
+
+Reusable Components (4 exercices)
+46. Créer un composant InputField réutilisable avec label et placeholder.
+47. Créer un composant Modal qui s’ouvre/ferme via un état.
+48. Créer un composant Button personnalisable (couleur, taille) via props.
+49. Créer une Card générique pour afficher n'importe quel contenu (enfants via props.children).
